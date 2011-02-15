@@ -33,6 +33,7 @@ body {
 	background:#fff;
 	color:#444;
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+font-size:0.95em;
 }
 
 #page {
@@ -41,11 +42,12 @@ body {
 }
 #primary {
 	float: left;
-	margin: 0 -240px 0 0;
+	margin: 0 -280px 0 0;
 	width: 100%;
 }
 #content {
-	margin: 0 280px 0 4em;
+	margin: 0 300px 0 4em;
+padding-top:2em;
 }
 #main .widget-area {
 	float: left;
@@ -57,8 +59,9 @@ body {
 	display: block;
 	width: 100%;
 }
-article {
-margin: 0 0 4em 0;
+
+article h1{
+font-size:1.5em;
 }
 
 /* Increase the size of the content area for templates without sidebars */
@@ -96,9 +99,8 @@ margin: 0 0 4em 0;
 /* =Header
 -------------------------------------------------------------- */
 hgroup{
-	margin:0;
+/*	margin:0;*/
 	padding:1em 0 2em 4em;
-	height:4.8em;
 	background:#237ab2;
 }
 
@@ -243,7 +245,9 @@ color:#c6c8c9;
 	text-align:center;
 }
 
-
+.entry-meta {
+color:#AAA;
+}
 
 /* 404 page */
 .error404 .widget {
@@ -426,6 +430,15 @@ color: #FFF;
 }
 
 #colophon a {
+	color:#aac;
+}
+
+
+:#aac;
+}
+
+
+
 	color:#aac;
 }
 
