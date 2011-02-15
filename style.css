@@ -219,7 +219,7 @@ color:#c6c8c9;
 }
 
 .entry-content table {
-	border-width:0 1px 1px 0;
+	border-width:1px;
 	border-style:solid;
 	border-color:#ccc;
 	font-size:0.9em;
@@ -227,14 +227,14 @@ color:#c6c8c9;
 
 .entry-content table tr td {
 	padding:5px 10px;
-	border-width:1px 0 0 1px;
+	border-width:1px;
 	border-style:solid;
 	border-color:#ccc;
 
 }
 
 .entry-content table tr th {
-	border-width:1px 0 0 1px;
+	border-width:1px;
 	border-style:solid;
 	border-color:#ccc;
 	padding:5px 10px;
@@ -400,11 +400,11 @@ article.comment {
 .widget-area {
 background: #aff;
 margin: 0;
-padding: 1em 1em 1em 1em;
+padding: 3em 1em 1em 1em;
 display:block;
 font-size:0.8em;
 }
-.widget-area h1{
+.widget-title{
 font-size:1.1em;
 color:#237ab2;
 }
@@ -418,6 +418,29 @@ color:#237ab2;
 	float: left;
 }
 
+.widget-area ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+.widget-area ul ul {
+	margin:0;
+	padding:0;
+}
+
+.widget-area li li {
+	margin:0 1em;
+}
+/*from FB
+.widget-area ul li {
+	margin:0 0 2em 0;
+}
+.widget-area li li li {
+	padding-left:10px;
+}
+*/
+
 
 /* =Footer
 -------------------------------------------------------------- */
@@ -430,15 +453,6 @@ color: #FFF;
 }
 
 #colophon a {
-	color:#aac;
-}
-
-
-:#aac;
-}
-
-
-
 	color:#aac;
 }
 
