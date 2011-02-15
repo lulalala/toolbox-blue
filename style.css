@@ -60,9 +60,7 @@ padding-top:2em;
 	width: 100%;
 }
 
-article h1{
-font-size:1.5em;
-}
+
 
 /* Increase the size of the content area for templates without sidebars */
 .full-width #content,
@@ -190,6 +188,9 @@ color:#c6c8c9;
 
 /* =Content
 -------------------------------------------------------------- */
+article {
+margin-bottom: 3em;
+}
 
 #content nav {
 	display: block;
@@ -216,6 +217,10 @@ color:#c6c8c9;
 }
 .page-link {
 	margin: 0 0 1em;
+}
+
+.entry-title {
+font-size:1.5em;
 }
 
 .entry-content table {
