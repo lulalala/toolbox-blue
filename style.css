@@ -46,7 +46,7 @@ font-size:0.95em;
 	width: 100%;
 }
 #content {
-	margin: 0 300px 0 4em;
+	margin: 0 300px 2em 4em;
 padding-top:2em;
 }
 #main .widget-area {
@@ -447,7 +447,8 @@ color:#237ab2;
 
 #colophon {
 	padding: 2em 0 2em 0;
-
+text-align:center;
+font-size:0.7em;
 background:#165279;
 color: #FFF;
 }
