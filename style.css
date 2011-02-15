@@ -216,6 +216,35 @@ color:#c6c8c9;
 	margin: 0 0 1em;
 }
 
+.entry-content table {
+	border-width:0 1px 1px 0;
+	border-style:solid;
+	border-color:#ccc;
+	font-size:0.9em;
+}
+
+.entry-content table tr td {
+	padding:5px 10px;
+	border-width:1px 0 0 1px;
+	border-style:solid;
+	border-color:#ccc;
+
+}
+
+.entry-content table tr th {
+	border-width:1px 0 0 1px;
+	border-style:solid;
+	border-color:#ccc;
+	padding:5px 10px;
+	background:#f4f4f4;
+	color:#666;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+
+
 /* 404 page */
 .error404 .widget {
 	float: left;
@@ -369,9 +398,10 @@ background: #aff;
 margin: 0;
 padding: 1em 0 0 1em;
 display:block;
+font-size:0.9em;
 }
 .widget-area h1{
-font-size:1em;
+font-size:1.1em;
 color:#237ab2;
 }
 .widget {
