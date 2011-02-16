@@ -415,6 +415,7 @@ color:#237ab2;
 }
 .widget {
 	display: block;
+margin-bottom:2.4em;
 }
 .widget-area .widget_search {
 	overflow: hidden;
